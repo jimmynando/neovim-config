@@ -13,7 +13,7 @@ Customized Nvim to give the user a IDE experience.
 - Alpha Dashboard
 
 ## Keymaps
-`
+```text
 Ctrl + n -> Nvimtree toggle
 Ctrl + p -> Telescope
 Ctrl + Shift + f -> Search in file
@@ -26,11 +26,12 @@ Ctrl + Up -> Move cursor up
 Ctrl + Left -> Move cursor left
 Ctrl + Right -> Move cursor right
 <leader> + f -> Fotmat
-` 
+``` 
+
 ## Installation
 Clone the repo inside the ~/.config dir
 
-`
+```bash
 git clone https://github.com/jimmynando/neovim-config.git
-`
+```
 
