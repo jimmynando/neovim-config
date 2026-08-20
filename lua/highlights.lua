@@ -14,7 +14,7 @@ vim.api.nvim_set_hl(0, "@comment", { fg = "#565f89", italic = true })
 vim.api.nvim_set_hl(0, "Directory", { fg = "#7aa2f7" })
 
 -- NvimTree — Tokyo Night-inspired colors
-vim.api.nvim_set_hl(0, "NvimTreeFolderName", { fg = "#7aa2f7" })
+vim.api.nvim_set_hl(0, "NvimTreeFolderName", { fg = "#c0caf5" })
 vim.api.nvim_set_hl(0, "NvimTreeOpenedFolderName", { fg = "#7dcfff", bold = true })
 vim.api.nvim_set_hl(0, "NvimTreeFolderIcon", { fg = "#7aa2f7" })
 
