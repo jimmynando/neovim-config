@@ -1,4 +1,4 @@
--- Nvim Tree and Telescope
+-- Nvim Tree and Telecscope
 vim.keymap.set("n", "<C-n>", ":NvimTreeToggle<CR>")
 vim.keymap.set("n", "<C-p>", ":Telescope find_files<CR>")
 vim.keymap.set("n", "<C-S-f>", ":Telescope live_grep<CR>")
