@@ -24,3 +24,14 @@ end, { desc = "Format code" })
 -- Move Line
 vim.keymap.set("n", "<A-j>", ":m .+1<CR>==", { desc = "Move line down" })
 vim.keymap.set("n", "<A-k>", ":m .-2<CR>==", { desc = "Move line up" })
+
+-- Claude Code
+vim.keymap.set("n", "<leader>ac", "<cmd>ClaudeCode<CR>", { desc = "Toggle Claude" })
+vim.keymap.set("n", "<leader>ab", "<cmd>ClaudeCodeAdd %<CR>", { desc = "Add current file to Claude" })
+vim.keymap.set("v", "<leader>as", "<cmd>ClaudeCodeSend<CR>", { desc = "Send selection to Claude" })
+vim.keymap.set("n", "<leader>aa", "<cmd>ClaudeCodeDiffAccept<CR>", { desc = "Accept Claude's diff" })
+vim.keymap.set("n", "<leader>ad", "<cmd>ClaudeCodeDiffDeny<CR>", { desc = "Reject Claude's diff" })
+
+-- Copilot Chat
+vim.keymap.set("n", "<leader>cc", "<cmd>CopilotChatToggle<CR>", { desc = "Toggle Copilot Chat" })
+vim.keymap.set("n", "<leader>cm", "<cmd>CopilotChatModels<CR>", { desc = "Pick Copilot model" })
