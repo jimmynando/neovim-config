@@ -12,12 +12,12 @@ return {
 
     local dashboard = require("alpha.themes.dashboard")
 
-    local image_path = "/home/fernando/Pictures/Screenshots/logo.png"
+    local image_path = "/home/fernando/Imagens/Nvim-Wallpapers/frieren.png"
 
     -- Image
-    dashboard.section.terminal.command = "catimg -w 75 " .. image_path .. " && sleep infinity"
-    dashboard.section.terminal.width = 38
-    dashboard.section.terminal.height = 20
+    dashboard.section.terminal.command = "catimg -w 100 " .. image_path .. " && sleep infinity"
+    dashboard.section.terminal.width = 50
+    dashboard.section.terminal.height = 27
     dashboard.section.terminal.opts = {
       redraw = true,
       window_config = {},
