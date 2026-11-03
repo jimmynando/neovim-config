@@ -1,7 +1,10 @@
 {
+  "CopilotChat.nvim": { "branch": "main", "commit": "2b7da97d655416462d4d5c38d0eb1f1eacc900a2" },
   "alpha-nvim": { "branch": "main", "commit": "6c6a89d5b068b5251c8bdf0dd57bb921bcfeeb09" },
   "blink.cmp": { "branch": "main", "commit": "78336bc89ee5365633bcf754d93df01678b5c08f" },
+  "claudecode.nvim": { "branch": "main", "commit": "af04fbf9c27c5c06b4d1ff022b551aa94e1df4aa" },
   "conform.nvim": { "branch": "master", "commit": "016802de402556da54c36bd7359b441266b01cdd" },
+  "gruvbox.nvim": { "branch": "main", "commit": "154eb5ff5b96d0641307113fa385eaf0d36d9796" },
   "lazy.nvim": { "branch": "main", "commit": "306a05526ada86a7b30af95c5cc81ffba93fef97" },
   "lualine.nvim": { "branch": "master", "commit": "221ce6b2d999187044529f49da6554a92f740a96" },
   "nvim-lint": { "branch": "master", "commit": "5b5b794458b5ff0b17d26c9d7400faaebd00b32d" },
