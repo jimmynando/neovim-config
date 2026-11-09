@@ -35,3 +35,6 @@ vim.keymap.set("n", "<leader>ad", "<cmd>ClaudeCodeDiffDeny<CR>", { desc = "Rejec
 -- Copilot Chat
 vim.keymap.set("n", "<leader>cc", "<cmd>CopilotChatToggle<CR>", { desc = "Toggle Copilot Chat" })
 vim.keymap.set("n", "<leader>cm", "<cmd>CopilotChatModels<CR>", { desc = "Pick Copilot model" })
+
+-- Markdown Preview
+vim.keymap.set("n", "<leader>mp", "<cmd>MarkdownPreviewToggle<CR>", { desc = "Toggle markdown preview" })
