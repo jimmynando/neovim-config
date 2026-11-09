@@ -17,6 +17,7 @@ Customized Nvim to give the user an IDE experience, with AI assistants built in.
 - Strudel
 - Claude Code
 - Copilot Chat (default model: Claude Haiku 5.5)
+- Markdown Preview (live preview in the browser)
 
 ## Keymaps
 The leader key is `Space`.
@@ -54,11 +55,22 @@ Alt + k -> Move line up
 <leader> + cm -> Pick Copilot model
 ```
 
+### Markdown Preview
+Only available in markdown files. Opens a live preview in your browser that follows the cursor.
+
+```text
+<leader> + mp -> Toggle markdown preview
+```
+
+Commands: `:MarkdownPreview`, `:MarkdownPreviewStop`, `:MarkdownPreviewToggle`
+
 ## Requirements
 - [Claude Code](https://claude.com/claude-code) CLI installed, for the Claude integration
 - A GitHub Copilot subscription, for Copilot Chat
 - `make`, used to build Copilot Chat's token counter
 - Node.js and `npm`, used to build Strudel
+- `curl` (or `wget`), used to download Markdown Preview's prebuilt server on install
+- A web browser, for Markdown Preview
 
 ## Installation
 Clone the repo into `~/.config/nvim`
