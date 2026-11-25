@@ -19,7 +19,11 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("plugins")
+require("lazy").setup("plugins", {
+  -- Plugins marked `dev = true` load from ~/repos/<name> when that folder
+  -- exists, and fall back to GitHub when it doesn't.
+  dev = { path = "~/repos", fallback = true },
+})
 
 require("options")
 require("keymaps")
