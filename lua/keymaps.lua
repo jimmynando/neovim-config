@@ -38,3 +38,7 @@ vim.keymap.set("n", "<leader>cm", "<cmd>CopilotChatModels<CR>", { desc = "Pick C
 
 -- Markdown Preview
 vim.keymap.set("n", "<leader>mp", "<cmd>MarkdownPreviewToggle<CR>", { desc = "Toggle markdown preview" })
+
+-- Nanquim (Markdown rendered in the buffer)
+vim.keymap.set("n", "<leader>mn", "<cmd>Nanquim<CR>", { desc = "Toggle nanquim rendering" })
+vim.keymap.set("n", "<leader>mi", "<cmd>Nanquim image<CR>", { desc = "Preview Markdown image" })
