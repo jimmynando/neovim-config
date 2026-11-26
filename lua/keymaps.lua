@@ -42,3 +42,6 @@ vim.keymap.set("n", "<leader>mp", "<cmd>MarkdownPreviewToggle<CR>", { desc = "To
 -- Nanquim (Markdown rendered in the buffer)
 vim.keymap.set("n", "<leader>mn", "<cmd>Nanquim<CR>", { desc = "Toggle nanquim rendering" })
 vim.keymap.set("n", "<leader>mi", "<cmd>Nanquim image<CR>", { desc = "Preview Markdown image" })
+
+-- Eina (pet)
+vim.keymap.set("n", "<leader>pp", "<cmd>Eina<CR>", { desc = "Toggle eina pet" })
